@@ -40,9 +40,9 @@ Durante "mis" 3 sesiones del curso utilizaremos en clase las siguientes **slides
 
 ### Qproject (a descargar)
 
-- En clase trabajaremos con Qprojects. El Qproject que usaremos en mis 3 sesiones, [`pedro.j.perez@uv.es`](mailto:pedro.j.perez@uv.es), puedes descargarlo [aquí](./materiales/Qproject_pjp.zip){target="_blank"}.
+- En clase trabajaremos con Qprojects. El Qproject que usaremos en mis 3 sesiones, [`pedro.j.perez@uv.es`](mailto:pedro.j.perez@uv.es), puedes descargarlo [aquí](./materiales/Qproject_pjp.zip){target="_blank"}. Al pinchar, se te descargará una archivo comprimido llamado `Qproject_pjp.zip`.
 
-- Al pinchar, se te descargará una archivo comprimida llamado `Qproject_pjp.zip`. Descomprime el archivo y así tendrás en tu ordenador el Qproject que utilizaremos en clase. Contiene algunos materiales (scripts, ejemplos, ... ) que usaremos en clase. Ya os lo explicaré.
+- Descomprime el archivo y así tendrás en tu ordenador el Qproject que utilizaremos en clase en "mis 3 sesiones". Contiene algunos materiales (scripts, ejemplos, ... ) que usaremos en clase. Ya os lo explicaré.
 
 
 <br>
