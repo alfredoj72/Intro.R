@@ -17,7 +17,7 @@ about:
       url: "mailto:<pedro.j.perez@uv.es>"
 ---
 
-Bienvenidos a la web del curso "Introducción a R" del SFPIE, Universitat de València, edición de 2023. Por el título podéis imaginar que el curso es una introducción a R 😃.
+**Bienvenidos** a la web del curso "Introducción a R" del SFPIE, Universitat de València, edición de 2023. Por el título podéis imaginar que el curso es una introducción a R 😃.
 
 <br>
 

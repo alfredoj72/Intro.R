@@ -46,14 +46,7 @@
     "href": "materiales.html",
     "title": "Materiales para el Taller",
     "section": "",
-    "text": "Importante!!\n\n\n\n\nDurante el curso interactuaremos con R y Quarto a través de RStudio. Se recomienda tener instaladas versiones recientes de los 3 programas. En Info tienes los links de instalación."
-  },
-  {
-    "objectID": "materiales.html#footnotes",
-    "href": "materiales.html#footnotes",
-    "title": "Materiales para el Taller",
-    "section": "Notas",
-    "text": "Notas\n\n\nSe descargará una carpeta comprimida llamada Qproject_pjp.zip. Descomprime la carpeta y así tendrás en tu ordenador el Qproject que utilizaremos en clase↩︎"
+    "text": "Importante!!\n\n\n\n\nDurante el curso interactuaremos con R y Quarto a través de RStudio. Se recomienda tener instaladas versiones recientes de los 3 programas. En Info tienes los links de instalación.\n\n\n\n\nSlides\nDurante “mis” 3 sesiones del curso utilizaremos en clase las siguientes slides:\n\nTidyverse: Introducción\nTidyverse: Importación/exportación datos\nTidyverse: Data munging\nTidyverse: Rmarkdown\nTidyverse: Introducción a Quarto\n\n(Si quieres, puedes descargar todas las slides aquí)\n\n\n\nQproject (a descargar)\n\nEn clase trabajaremos con Qprojects. El Qproject que usaremos en mis 3 sesiones, pedro.j.perez@uv.es, puedes descargarlo aquí.\nAl pinchar, se te descargará una archivo comprimida llamado Qproject_pjp.zip. Descomprime el archivo y así tendrás en tu ordenador el Qproject que utilizaremos en clase. Contiene algunos materiales (scripts, ejemplos, … ) que usaremos en clase. Ya os lo explicaré.\n\n\n\n\n\n\nLogística (enlaces)\nDurante el curso, seguramente, usaremos alguno de estos recursos:\n\nEtherpad\nRStudio Cloud Project\nProgramación y manejo de datos con R\nCreación de documentos reproducibles con R y Quarto\nAula Virtual de la asignatura"
   },
   {
     "objectID": "about.html",

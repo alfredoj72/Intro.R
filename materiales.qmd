@@ -40,7 +40,9 @@ Durante "mis" 3 sesiones del curso utilizaremos en clase las siguientes **slides
 
 ### Qproject (a descargar)
 
-- En clase trabajaremos con Qprojects. El Qproject que usaremos en mis 3 sesiones, [`pedro.j.perez@uv.es`](mailto:pedro.j.perez@uv.es), puedes descargarlo [aquí](./materiales/Qproject_pjp.zip){target="_blank"}^[Se descargará una carpeta comprimida llamada `Qproject_pjp.zip`. Descomprime la carpeta y así tendrás en tu ordenador el Qproject que utilizaremos en clase]. Contiene algunos materiales (scripts, ejemplos, ... ) que usaremos en clase. Ya os lo explicaré.
+- En clase trabajaremos con Qprojects. El Qproject que usaremos en mis 3 sesiones, [`pedro.j.perez@uv.es`](mailto:pedro.j.perez@uv.es), puedes descargarlo [aquí](./materiales/Qproject_pjp.zip){target="_blank"}.
+
+- Al pinchar, se te descargará una archivo comprimida llamado `Qproject_pjp.zip`. Descomprime el archivo y así tendrás en tu ordenador el Qproject que utilizaremos en clase. Contiene algunos materiales (scripts, ejemplos, ... ) que usaremos en clase. Ya os lo explicaré.
 
 
 <br>
@@ -66,10 +68,7 @@ Durante el curso, seguramente, usaremos alguno de estos recursos:
 - [Creación de documentos reproducibles con R y Quarto](https://perezp44.github.io/intro.to.quarto/){target="_blank"}
 
 
-- [Aula Virtual de la asignatura](https://aulavirtual.uv.es/course/view.php?id=36399){target="_blank"} 
-
-
-
+- [Aula Virtual de la asignatura](https://aulavirtual.uv.es/course/view.php?id=55241){target="_blank"} 
 <br>
 
 
