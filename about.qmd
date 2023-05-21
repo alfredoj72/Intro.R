@@ -22,7 +22,7 @@ format:
 
 Mi nombre es Pedro J. Pérez. Soy **profesor** del departamento de Análisis Económico de la **Universitat de València**. Me gusta aprender y trastear con R; vamos, que aún soy un **entusiasta de R**. Me divierto!!
 
-Podemos decir que tengo "bastante" experiencia con **R** porque **lo utilizo en mi docencia e investigación**; de hecho, imparto una signatura en el grado de Economía que es una **introducción a R**, [aquí](https://perezp44.github.io/intro-ds-22-23-web/){target="_blank"} puedes ver su web. También imparto un curso de introducción a R en el SFPIE, [aquí](https://perezp44.github.io/web.SFPIE.2022/){target="_blank"} puedes ver la web de otra de sus ediciones.
+Podemos decir que tengo "bastante" experiencia con **R** porque **lo utilizo en mi docencia e investigación**; de hecho, imparto una asignatura en el grado de Economía que es una **introducción a la Ciencia de datos con R**, [aquí](https://perezp44.github.io/intro-ds-22-23-web/){target="_blank"} puedes ver su web. También imparto un curso de introducción a R en el SFPIE, [aquí](https://perezp44.github.io/web.SFPIE.2022/){target="_blank"} puedes ver la web de otra de sus ediciones.
 
 
 

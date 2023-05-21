@@ -21,7 +21,7 @@ about:
 
 <br>
 
-El curso tiene **2 profesores**: Vicente Coll y yo mismo: [`pedro.j.perez@uv.es`](mailto:pedro.j.perez@uv.es). Cada uno impartirá 3 sesiones. En "mis" 3 sesiones me centraré en introducir una "ya no tan nueva" forma de afrontar el análisis de datos con R conocida como **tidyverse**. 
+El curso tiene **2 profesores**: Vicente Coll y yo mismo: [`pedro.j.perez@uv.es`](mailto:pedro.j.perez@uv.es). Cada uno impartirá 3 sesiones. En "mis 3 sesiones" me centraré en introducir una "ya no tan nueva" forma de afrontar el análisis de datos con R conocida como **tidyverse**. 
 
 <br>
 
