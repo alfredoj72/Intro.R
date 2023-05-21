@@ -1,0 +1,39 @@
+---
+title: "<br>**Bienvenidos al curso!!!**<br>"
+image: imagenes/caratula.png
+about:
+  #- https://quarto.org/docs/websites/website-about.html#templates
+  template: trestles  #- {jolla, solana, trestles}
+  #- https://quarto.org/docs/websites/website-about.html#image
+  image-width: 33em  #- 39
+  image-shape: rectangle
+  #- https://quarto.org/docs/websites/website-about.html#links
+  links:
+    - icon: github
+      href: https://github.com/perezp44
+    - icon: twitter
+      href: https://twitter.com/pjpv4444
+    - icon: envelope
+      url: "mailto:<pedro.j.perez@uv.es>"
+---
+
+Bienvenidos a la web del curso "Introducción a R" del SFPIE, Universitat de València, edición de 2023. Por el título podéis imaginar que el curso es una introducción a R 😃.
+
+<br>
+
+El curso tiene **2 profesores**: Vicente Coll y yo mismo: [`pedro.j.perez@uv.es`](mailto:pedro.j.perez@uv.es). Cada uno impartirá 3 sesiones. En "mis" 3 sesiones me centraré en introducir una "ya no tan nueva" forma de afrontar el análisis de datos con R conocida como **tidyverse**. 
+
+<br>
+
+La web tiene el propósito de facilitar el acceso a los **materiales que usaremos durante las 3 sesiones a mi cargo**:
+
+
+
+
+- Los **materiales** están en [Materiales](materiales.qmd).
+
+- Los **detalles sobre el curso** (horario, aula, ...) están en [Info](info.qmd).
+
+<br>
+
+Nos vemos pronto en el [aula 302](https://goo.gl/maps/sKgDr3U2gwVsKHxL6){target="_blank"}, Aulario Sur, Campus de Tarongers.
