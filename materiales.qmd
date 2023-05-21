@@ -1,5 +1,5 @@
 ---
-title: "Materiales para el Taller"
+title: "Materiales para el curso"
 ---
 
 
@@ -16,7 +16,7 @@ title: "Materiales para el Taller"
 
 ### Slides
 
-Durante "mis" 3 sesiones del curso utilizaremos en clase las siguientes **slides**:
+Durante "mis 3 sesiones" del curso, utilizaremos en clase, las siguientes **slides**:
 
 - [Tidyverse: Introducción](/slides/slides_01_intro_v3_to-the-tidyverse.html){target="_blank"}
 
