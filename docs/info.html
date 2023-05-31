@@ -17,6 +17,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -237,7 +271,7 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Instalación de R y RStudio
+Instalación de R, RStudio y Quarto
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -259,6 +293,93 @@ Instalación de R y RStudio
 </div>
 </div>
 <p><br></p>
+<div class="callout callout-style-default callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Instalación de paquetes
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>En el curso también usaremos algunos paquetes de R, así que hay que instalarlos</p></li>
+<li><p>Los paquetes se han de instalar una vez hayas instalado los 3 programas (R, RStudio y Quarto)</p></li>
+<li><p>Los paquetes no son necesarios para el primer día del curso, así que los instalaremos en clase durante la <strong>segunda sesión</strong> del curso</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+¿Cómo instalar los paquetes?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>Recuerda que Los paquetes no son necesarios para el primer día del curso, así que los instalaremos en clase durante la segunda sesión</p></li>
+<li>
+<p>Algunos paquetes se han de compilar por lo que hay que tener las herramientas necesarias, así que:</p>
+<ul>
+<li><p>Si usas Windows instalaremos <strong>Rtools</strong>. <a href="https://cran.r-project.org/bin/windows/Rtools/">Aquí</a> puedes descargarte el instalador adecuado</p></li>
+<li><p>Si tienes un Mac, tendrás que instalar the <strong>Xcode Command Line Tools</strong>. Lo normal es que lo tengas ya instalado, si no fuese el caso, <a href="https://www.makeuseof.com/install-xcode-command-line-tools/">aquí</a> te explican como hacerlo. Además, como nos cuentan <a href="https://psyteachr.github.io/msc-data-skills/installingr.html">aquí</a>, si tienes un Mac, es conveniente instalar <strong>XQuartz</strong>, para ello sólo tienes que buscar el instalador en <a href="https://www.xquartz.org/" class="uri">https://www.xquartz.org/</a></p></li>
+</ul>
+</li>
+<li><p>Finalmente, para instalar los paquetes que usaremos durante el curso tendremos que <strong>ejecutar las siguientes instrucciones</strong>:</p></li>
+</ul>
+<div class="cell" data-hash="info_cache/html/unnamed-chunk-2_839419e1b60b55ef640df302d5a79244">
+<details><summary>Código para instalar los paquetes</summary><div class="sourceCode" id="cb1" data-code-line-numbers="false"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">#- instalación de paquetes ---------------------------------</span></span>
+<span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span><span class="op">(</span><span class="st">"pak"</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">mys_pkgs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"tidyverse"</span>, <span class="st">"curl"</span>, <span class="st">"eurostat"</span>, <span class="st">"here"</span>, <span class="st">"palmerpenguins"</span>, <span class="st">"quantmod"</span>, <span class="st">"rio"</span>, <span class="st">"gt"</span>, <span class="st">"DT"</span>, <span class="st">"gapminder"</span><span class="op">)</span></span>
+<span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="http://pak.r-lib.org/reference/pkg_install.html">pkg_install</a></span><span class="op">(</span><span class="va">mys_pkgs</span><span class="op">)</span>   </span>
+<span></span>
+<span><span class="va">mys_pkgs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"usethis"</span>, <span class="st">"janitor"</span>, <span class="st">"ggthemes"</span>, <span class="st">"gganimate"</span>, <span class="st">"perezp44/pjpv.curso.R.2022"</span>, <span class="st">"sjPlot"</span><span class="op">)</span></span>
+<span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="http://pak.r-lib.org/reference/pkg_install.html">pkg_install</a></span><span class="op">(</span><span class="va">mys_pkgs</span><span class="op">)</span>   </span>
+<span></span>
+<span><span class="va">mys_pkgs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"sf"</span>, <span class="st">"rcartocolor"</span>, <span class="st">"rmapshaper"</span>, <span class="st">"gtExtras"</span>, <span class="st">"patchwork"</span>, <span class="st">"magick"</span><span class="op">)</span></span>
+<span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="http://pak.r-lib.org/reference/pkg_install.html">pkg_install</a></span><span class="op">(</span><span class="va">mys_pkgs</span><span class="op">)</span>   </span>
+<span></span>
+<span><span class="va">mys_pkgs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"kableExtra"</span>, <span class="st">"modelsummary"</span>, <span class="st">"rpivotTable"</span>, <span class="st">"widyr"</span>, <span class="st">"irlba"</span>, <span class="st">"tmap"</span><span class="op">)</span></span>
+<span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="http://pak.r-lib.org/reference/pkg_install.html">pkg_install</a></span><span class="op">(</span><span class="va">mys_pkgs</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">mys_pkgs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"GGally"</span>, <span class="st">"ggtext"</span>, <span class="st">"Financial-Times/ftplottools"</span>, <span class="st">"maps"</span><span class="op">)</span></span>
+<span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="http://pak.r-lib.org/reference/pkg_install.html">pkg_install</a></span><span class="op">(</span><span class="va">mys_pkgs</span><span class="op">)</span>  </span>
+<span></span>
+<span><span class="va">mys_pkgs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"summarytools"</span>, <span class="st">"glin/reactable"</span>, <span class="st">"agstn/dataxray"</span>, <span class="st">"naniar"</span><span class="op">)</span></span>
+<span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="http://pak.r-lib.org/reference/pkg_install.html">pkg_install</a></span><span class="op">(</span><span class="va">mys_pkgs</span><span class="op">)</span>  </span>
+<span></span>
+<span><span class="va">mys_pkgs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"DataExplorer"</span>, <span class="st">"corrr"</span>, <span class="st">"inspectdf"</span>, <span class="st">"explore"</span>, <span class="st">"stargazer"</span>, <span class="st">"apaTables"</span><span class="op">)</span></span>
+<span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="http://pak.r-lib.org/reference/pkg_install.html">pkg_install</a></span><span class="op">(</span><span class="va">mys_pkgs</span><span class="op">)</span>   </span>
+<span></span>
+<span></span>
+<span><span class="co">#- finalmente, si te instals todos los paquetes, se instalaran 284 pkg's (q ocupan 842 MB)</span></span>
+<span><span class="va">pkgs</span> <span class="op">&lt;-</span> <span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="http://pak.r-lib.org/reference/lib_status.html">pkg_list</a></span><span class="op">(</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co">#- normalmente tendrás 2 librerías</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/libPaths.html">.libPaths</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="co">#- en la primera tienes los pkgs de "R-base": "C:/Program Files/R/R-4.3.0/library"   </span></span>
+<span><span class="co">#- en la segunda tienes los paquetes q se instala un usuario:  "C:/Users/Usuario/AppData/Local/R/win-library/4.3" </span></span>
+<span></span>
+<span></span>
+<span><span class="co">#- edits ---------------------------------------</span></span>
+<span><span class="co"># usethis::edit_rstudio_prefs()</span></span>
+<span><span class="co"># usethis::use_blank_slate()</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</div>
+</div>
+</div>
 
 
 </section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
