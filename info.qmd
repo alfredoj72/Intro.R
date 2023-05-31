@@ -142,7 +142,7 @@ mys_pkgs <- c("DataExplorer", "corrr", "inspectdf", "explore", "stargazer", "apa
 pak::pkg_install(mys_pkgs)   
 
 
-#- finalmente, si te instals todos los paquetes, se instalaran 284 pkg's (q ocupan 842 MB)
+#- finalmente, si te instalas todos los paquetes, se instalarán 284 pkg's (q ocupan 842 MB)
 pkgs <- pak::pkg_list()
 
 #- normalmente tendrás 2 librerías
@@ -151,9 +151,12 @@ pkgs <- pak::pkg_list()
 #- en la segunda tienes los paquetes q se instala un usuario:  "C:/Users/Usuario/AppData/Local/R/win-library/4.3" 
 
 
-#- edits ---------------------------------------
+#- más cosas ---------------------------------------
 # usethis::edit_rstudio_prefs()
-# usethis::use_blank_slate()
+# usethis::use_blank_slate() 
+
+# quarto install tool tinytext
+# quarto install tool chromium
 ```
 
 :::
