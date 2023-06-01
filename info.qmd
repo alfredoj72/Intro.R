@@ -156,6 +156,7 @@ pkgs <- pak::pkg_list()
 # usethis::use_blank_slate() 
 
 # quarto install tool tinytext
+# quarto install tinytex --update-path
 # quarto install tool chromium
 ```
 
