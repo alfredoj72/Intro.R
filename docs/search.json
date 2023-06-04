@@ -46,7 +46,56 @@
     "href": "materiales.html",
     "title": "Materiales para el curso",
     "section": "",
-    "text": "Importante!!\n\n\n\n\nDurante el curso interactuaremos con R y Quarto a través de RStudio. Se recomienda tener instaladas versiones recientes de los 3 programas. En Info tienes los links de instalación.\n\n\n\n\nSlides\nDurante “mis 3 sesiones” del curso, utilizaremos en clase, las siguientes slides:\n\nTidyverse: Introducción\nTidyverse: Importación/exportación datos\nTidyverse: Data munging\nTidyverse: Rmarkdown\nTidyverse: Introducción a Quarto\n\n(Si quieres, puedes descargar todas las slides aquí)\n\n\n\nQproject (a descargar)\n\nEn clase trabajaremos con Qprojects. El Qproject que usaremos en mis 3 sesiones, pedro.j.perez@uv.es, puedes descargarlo aquí. Al pinchar, se te descargará una archivo comprimido llamado Qproject_pjp.zip.\nDescomprime el archivo y así tendrás en tu ordenador el Qproject que utilizaremos en clase en “mis 3 sesiones”. Contiene algunos materiales (scripts, ejemplos, … ) que usaremos en clase. Ya os lo explicaré.\n\n\n\n\n\n\nLogística (enlaces)\nDurante el curso, seguramente, usaremos alguno de estos recursos:\n\nEtherpad\nRStudio Cloud Project\nProgramación y manejo de datos con R\nCreación de documentos reproducibles con R y Quarto\nAula Virtual de la asignatura"
+    "text": "Importante!!\n\n\n\n\nDurante el curso interactuaremos con R y Quarto a través de RStudio. Se recomienda tener instaladas versiones recientes de los 3 programas. En Info tienes los links de instalación."
+  },
+  {
+    "objectID": "materiales.html#slides",
+    "href": "materiales.html#slides",
+    "title": "Materiales para el curso",
+    "section": "Slides",
+    "text": "Slides\nDurante “mis 3 sesiones” del curso, utilizaremos en clase, las siguientes slides:\n\nTidyverse: Introducción\nTidyverse: Importación/exportación datos\nTidyverse: Data munging\nTidyverse: Rmarkdown\nTidyverse: Introducción a Quarto\n\n(Si quieres, puedes descargar todas las slides aquí)"
+  },
+  {
+    "objectID": "materiales.html#qproject-a-descargar",
+    "href": "materiales.html#qproject-a-descargar",
+    "title": "Materiales para el curso",
+    "section": "Qproject (a descargar)",
+    "text": "Qproject (a descargar)\n\nEn clase trabajaremos con Qprojects. El Qproject que usaremos en mis 3 sesiones, pedro.j.perez@uv.es, puedes descargarlo aquí. Al pinchar, se te descargará una archivo comprimido llamado Qproject_pjp.zip.\nDescomprime el archivo y así tendrás en tu ordenador el Qproject que utilizaremos en clase en “mis 3 sesiones”. Contiene algunos materiales (scripts, ejemplos, … ) que usaremos en clase. Ya os lo explicaré."
+  },
+  {
+    "objectID": "materiales.html#logística",
+    "href": "materiales.html#logística",
+    "title": "Materiales para el curso",
+    "section": "Logística",
+    "text": "Logística\nSon simplemente enlaces para mi, para tenerlos a mano por si los necesito durante las clases:\n\nEtherpad\nRStudio Cloud Project\nProgramación y manejo de datos con R\nCreación de documentos reproducibles con R y Quarto\nAula Virtual de la asignatura"
+  },
+  {
+    "objectID": "materiales.html#estrategía-para-aprender-r",
+    "href": "materiales.html#estrategía-para-aprender-r",
+    "title": "Materiales para el curso",
+    "section": "Estrategía para aprender R",
+    "text": "Estrategía para aprender R\n\nUna buena chapa\nSi habéis venido al curso es que queréis aprender R y como sois muy buenos aprendiendo, parece que va a ser “easy-peasy-lemon-squeezy”, pero no, no es tan fácil. Como me dijo una de las matriculadas al curso por mail, aprender R es “una carrera de fondo”. Sí, como muchas cosas más, con R siempre se está aprendiendo, nunca lo “sabes todo” ni estás los “suficientemente preparado”.\nCreo que la principal barrera para aprender R, para llegar a usarlo en el día a día, es justamente la que señalo arriba, que la gente se dice, bueno, aún no estoy preparado, me hace falta un curso más o leer un libro más y ya después empezaré a usar R. Nooo😱, this is not the way!!! Créeme, llevo ya muchas ediciones del curso viendo compañeros superinteligentes que les gustaría usar R pero acaban dejándolo, bueno en realidad ni siquiera empiezan1.\nMi experiencia (llevo ya unas cuantas ediciones del curso de intro a R) me dice que hay que lanzarse. Sí, repito, tienes que lanzarte a usar R desde el principio, primero en proyectos sencillitos2, lógico, pero que te interesen, y poco a poco vas aprendiendo, te vas metiendo. Si no me crees, te lo va a explicar mucho mejor este vídeo3 de un programador de Phyton.\nPor los mails que he recibido, muchos de vosotros tenéis nivel cero de R. Claro, si tienes nivel cero igual si tienes que esperar un poco y formarte un poco más en R, seguramente las 24 horas de R del curso igual no son suficientes.\n¿Que me contradigo? sí, es verdad, pero en mi opinión, para “formarte lo suficiente” es suficiente con leerte un libro4, solo uno, y luego ya te lanzas. Yo os recomiendo este libro. Intenta leerlo siguiendo y ejecutando el código e intentando hacer los ejercicios. Como ayuda aquí tienes un repo con las soluciones.\nEvidentemente harás lo que puedas/quieras … y tampoco hay ninguna obligación de usar R: se pueden hacer las cosas de otra manera (SPSS, Stata, etc…). Además, como sabes, no siempre hay tiempo para todo ni todos los huesos aguantan el peso5. Vamos que no podemos llegar a todo y hay que aceptarlo. Que os voy a contar!!!\nSe acabó la chapa 😄😄6"
+  },
+  {
+    "objectID": "materiales.html#bibliografía",
+    "href": "materiales.html#bibliografía",
+    "title": "Materiales para el curso",
+    "section": "Bibliografía",
+    "text": "Bibliografía\nPara ser coherente con el discurso de arriba, no os voy a dar una lista de libros, solo voy a insistir en recomendarte este libro. Es un libro de Hadley Wickham el científico jefe de Posit/Rstudio y “creador” del tidyverse.\nHay una primera edición del libro que está también muy bien y también tiene libro de soluciones."
+  },
+  {
+    "objectID": "materiales.html#recursos",
+    "href": "materiales.html#recursos",
+    "title": "Materiales para el curso",
+    "section": "Recursos",
+    "text": "Recursos\nLo que sí os daré es una lista de recursos. La comunidad R es muy dinámica y en general comparte sus materiales, lo que hace que los recursos para aprender R sean, exagerando un poco, casi infinitos. Es imposible abarcarlo todo, es una avalancha continúa de nuevas paquetes, análisis, cursos, libros, etc….\n\nRecursos para buscar inspiración para tus proyectos\n\nR-weekly: cada semana envían un archivo con los mejores análisis hechos con R esa semana. Tienes que apuntarte aquí.\nKaggle: plataforma para aprender ML. Encontrarás datos y análisis de estos.\nR-bloggers: Un agregador de blogs relacionados con R.\nTidy Tuesday: cada semana lanzan una competición de visualización con unos datos.\n\n\n\n\nMás recursos\n\nQuick-R\nr-statistics.co\nModern Drive: un libro, en realidad un bookdown, que me gusta.\nswirl: swirl teaches you R programming and data science interactively, at your own pace, and right in the R console!\nR views: Un blog de la comunidad R editado por RStudio. Cada mes saca un post con los mejores 40 paquetes de ese mes; por ejemplo, aquí tienes el de abril de 2023.\nStack Overflow: si al final acabas utilizando R para tus análisis, seguramente acabarás utilizando Stack Overflow7. Es una comunidad de programadores, en la que muchas veces resolverás las dudas que te puedan surgir en tu aprendizaje sobre R.\n\n\n\n\nPropuestas para aprender R\n(Igual ya un poco anticuadas8 pero tienen partes todavía válidas)\n\nHow to get started with Data Science using R\nTutorials for learning R\n\n\n\n\nNecesito un paquete para …\n\nListado sencillo\nListado completo de CRAN agrupado por temática\nAWESOME list de pkgs\nListado de pkgs agrupados por fase del análisis\n\n\n\n\nAwesome list\nMucha gente hace sus propias listas de recursos R, aquí tienes algunas:\n\nAwesome R Learning Resources\nLearning R resources\nwww.learnr4free.com"
+  },
+  {
+    "objectID": "materiales.html#footnotes",
+    "href": "materiales.html#footnotes",
+    "title": "Materiales para el curso",
+    "section": "Notas",
+    "text": "Notas\n\n\nYo aún sigo creyendo que aprenderé a tocar la guitarra sin practicar en casa↩︎\n¿Que qué proyectos? Puede ser simplemente tratar de replicar con R algo que ya tengas hecho con otro programa, aunque yo casí recomiendo replicar proyectos de otros. ¿Que donde se código para replicar proyectos de otros? hay muchos sitios, pero yo te recomiendo 2: R-weekly y Kaggle ↩︎\nSon 5 minutillos↩︎\nAunque hay muchas otras estrategias, mira más abajo↩︎\nLo dice Xoel López en Reconstrucción (en versión confinada)↩︎\nPor favor, si alguien siente que la chapa/consejo funcionó con él, que me lo diga!!!↩︎\nSí, esto era antes de ChatGPT↩︎\nDel 2015, bufff … hace casi un siglo↩︎"
   },
   {
     "objectID": "about.html",
