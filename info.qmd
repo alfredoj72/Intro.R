@@ -120,7 +120,7 @@ Las clases se desarrollarán en:
 
 install.packages("pak")
 
-mys_pkgs <- c("tidyverse", "curl", "eurostat", "here", "palmerpenguins", "quantmod", "rio", "gt", "DT", "gapminder")
+mys_pkgs <- c("tidyverse", "curl", "eurostat", "here", "palmerpenguins", "quantmod", "rio", "gt", "DT", "gapminder", "markdown")
 pak::pkg_install(mys_pkgs)   
 
 mys_pkgs <- c("usethis", "janitor", "ggthemes", "gganimate", "perezp44/pjpv.curso.R.2022", "sjPlot")
@@ -141,8 +141,10 @@ pak::pkg_install(mys_pkgs)
 mys_pkgs <- c("DataExplorer", "corrr", "inspectdf", "explore", "stargazer", "apaTables")
 pak::pkg_install(mys_pkgs)   
 
+mys_pkgs <- c("easystats", "plotly")
+pak::pkg_install(mys_pkgs)
 
-#- finalmente, si te instalas todos los paquetes, se instalarán 284 pkg's (q ocupan 842 MB)
+#- finalmente, si te instalas todos los paquetes, se instalarán 284 pkg's aprox. (q ocupan 842 MB aprox.)
 pkgs <- pak::pkg_list()
 
 #- normalmente tendrás 2 librerías
