@@ -43,6 +43,10 @@ Durante "mis 3 sesiones" del curso, utilizaremos en clase, las siguientes **slid
 
 - Descomprime el archivo y así tendrás en tu ordenador el Qproject que utilizaremos en clase en "mis 3 sesiones". Contiene algunos materiales (scripts, ejemplos, ... ) que usaremos en clase. Ya os lo explicaré.
 
+#### **Segundo Qproject (a descargar)**
+
+- Para la última clase, he preferido seleccionar algunos ejemplos del Qproject original. Los tenéis en [este otro Qproject](./materiales/Qproject_pjp_2.zip){target="_blank"}. Se llama `Qproject_pjp_2`. Descárgalo y descomprímelo, lo vamos a usar en la última clase 😭  😄 . 
+
 <br>
 
 ## Logística
